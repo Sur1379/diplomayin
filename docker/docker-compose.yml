@@ -1,0 +1,41 @@
+version: '3'
+services:
+    server:
+        build:
+            context: ./server
+            dockerfile: Dockerfile
+        image: server
+        ports:
+            - "8080:80"
+        volumes:
+            - ../:/var/www/html
+        links:
+            - mysql
+        environment:
+            DB_HOST: host.docker.internal
+            DB_DATABASE: student-list
+            DB_USERNAME: root
+            DB_PASSWORD: root
+
+    mysql:
+        platform: linux/x86_64
+        image: mysql:8.0
+
+        ports:
+            - 3306:3306
+        environment:
+                MYSQL_DATABASE: student-list
+                MYSQL_PASSWORD: root
+                MYSQL_ROOT_PASSWORD: root
+        volumes:
+            - ./data/mysql:/var/lib/mysql
+            - ./data:/data
+    npm:
+        command: tail -F anything
+        build:
+            context: ./npm
+            dockerfile: Dockerfile
+        image: npm
+        volumes:
+            - ../:/var/www/html
+
