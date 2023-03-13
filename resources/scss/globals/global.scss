@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    a {
+        @include link;
+    }
+}
+
+.test {
+    color: #0000e3;
+    font-weight: unset;
+    font-style: revert;
+}
+
+.numeric {
+    list-style: numeric;
+}
+
+section {
+    margin-top: 90px;
+
+    h1, .main-text h4, .tab-content h2, .tab-content h4 {
+        color: #82180f;
+    }
+}
+
+hr {
+    margin: 2rem 0;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+

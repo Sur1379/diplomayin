@@ -1,0 +1,13 @@
+.menu_content {
+    box-shadow: 0 0 12px 4px rgb(220 220 220);
+
+    h3 {
+        &:after {
+            content: '';
+            border-bottom: 1px solid #960000;
+            display: block;
+            width: 15%;
+            margin-top: 10px;
+        }
+    }
+}

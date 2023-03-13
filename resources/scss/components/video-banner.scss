@@ -1,0 +1,13 @@
+.video-section{
+    position: relative;
+    height: 518px;
+}
+.parallax{
+    position: fixed;
+    height: 518px;
+    z-index: -1;
+    top: 0;
+}
+.parallax__content{
+    background: #fff;
+}

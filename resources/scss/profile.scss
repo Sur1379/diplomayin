@@ -1,0 +1,37 @@
+
+.profile-img img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.profile {
+    margin-top: 144px;
+    margin-left: 18px;
+}
+
+.profile-wrapper {
+    background: #f4f4f4;
+}
+
+.profile-wrapper h1 {
+    color: unset;
+    font-weight: bold;
+}
+
+.profile-wrapper p,i, .profile-wrapper a {
+    color: #4d4c4c;
+    font-weight: bold;
+}
+
+.row img {
+    box-shadow: rgb(50 50 93 / 25%)
+    0px 50px 100px -20px,
+    rgb(0 0 0 / 99%) 0px 30px 60px -30px;
+    max-width: 500px;
+}
+@media screen and (max-width: 768px){
+    .text{
+        text-align: center;
+        margin-top: 30px !important;
+    }
+}
