@@ -276,6 +276,7 @@ footer {
   border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
 .accordion-section .accordion-item .accordion-button:not(.collapsed) {
+  border: 1px solid #dee2e6;
   color: #000;
   background-color: rgba(255, 255, 255, 0.96);
 }
@@ -285,6 +286,7 @@ footer {
 }
 .accordion-section .accordion-item .accordion-button:focus {
   box-shadow: none;
+  outline: none;
   border-color: rgba(0, 0, 0, 0.125);
 }
 .accordion-section .accordion-item .accordion-text {

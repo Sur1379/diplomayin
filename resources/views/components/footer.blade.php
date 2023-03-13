@@ -12,7 +12,7 @@
                 @foreach($data['footer_texts'] as $footer_text)
                     <p>
                         {!!$footer_text['paragraph']!!}
-                        <a href={{asset($footer_text['link_url'])}}>
+                        <a href={{asset($footer_text['link_url'])}} target="_blank">
                             {{$footer_text['text']}}
                         </a>
                     </p>

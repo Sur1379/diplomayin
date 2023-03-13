@@ -346,7 +346,7 @@ class ExamsController extends Controller {
                             'Գծ',
                             'Գծն',
                             'Հլգ(գ)*',
-                            '750.000'
+                            '650.000'
                         ]
                     ],
                     [
@@ -364,7 +364,7 @@ class ExamsController extends Controller {
                             'Գծ',
                             'Գծն',
                             'Հլգ(գ)*',
-                            '594.000'
+                            '494.000'
                         ]
                     ],
                     [
@@ -373,7 +373,7 @@ class ExamsController extends Controller {
                             'Գծ',
                             'Գծն',
                             'Հլգ(գ)*',
-                            '594.000'
+                            '494.000'
                         ]
                     ],
                     [
@@ -382,7 +382,7 @@ class ExamsController extends Controller {
                             'Գծ',
                             'Գծն',
                             'Հլգ(գ)*',
-                            '594.000'
+                            '494.000'
                         ]
                     ],
                     [
@@ -400,7 +400,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '492.000'
+                            '392.000'
                         ]
                     ],
                     [
@@ -409,7 +409,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '492.000'
+                            '392.000'
                         ]
                     ],
                     [
@@ -418,7 +418,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '450.000'
+                            '350.000'
                         ]
                     ],
                     [
@@ -436,7 +436,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '492.000'
+                            '392.000'
                         ]
                     ],
                     [
@@ -445,7 +445,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '492.000'
+                            '392.000'
                         ]
                     ],
                     [
@@ -454,7 +454,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '492.000'
+                            '392.000'
                         ]
                     ],
                     [
@@ -472,7 +472,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '492.000'
+                            '392.000'
                         ]
                     ],
                     [
@@ -490,7 +490,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '552.000'
+                            '452.000'
                         ]
                     ],
                     [
@@ -508,7 +508,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '552.000'
+                            '452.000'
                         ]
                     ],
                     [
@@ -526,7 +526,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '552.000'
+                            '452.000'
                         ]
                     ],
                     [
@@ -544,7 +544,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '450.000'
+                            '350.000'
                         ]
                     ],
                     [
@@ -562,7 +562,7 @@ class ExamsController extends Controller {
                             'Մ(գ)',
                             'Ֆ(գ)',
                             'Հլգ(գ)*',
-                            '498.000'
+                            '398.000'
                         ]
                     ],
                 ]

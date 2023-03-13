@@ -9,6 +9,7 @@
 
         .accordion-button {
             &:not(.collapsed) {
+                border: 1px solid #dee2e6;
                 color: $black;
                 background-color: rgba(#fff, 0.96);
             }
@@ -20,6 +21,7 @@
 
             &:focus {
                 box-shadow: none;
+                outline: none;
                 border-color: rgba(0, 0, 0, .125);
             }
         }
