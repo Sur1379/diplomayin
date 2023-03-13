@@ -1,0 +1,27 @@
+.main-wrapper {
+    width: 65%;
+    margin: 125px auto 75px;
+    box-shadow: 0 0 12px 4px rgb(220 220 220);
+
+    .nav-pills {
+        --bs-nav-pills-border-radius: 0;
+        --bs-nav-pills-link-active-color: #fff;
+        --bs-nav-pills-link-active-bg: #82180f;
+    }
+
+    .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+        color: var(--bs-nav-pills-link-active-color);
+        background-color: var(--bs-nav-pills-link-active-bg);
+    }
+
+}
+.nav {
+    .nav-link {
+        color: black;
+
+        &:hover {
+            color: $grey;
+        }
+    }
+}
+

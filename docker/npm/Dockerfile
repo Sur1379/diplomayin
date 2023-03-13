@@ -6,10 +6,9 @@ USER root
 
 WORKDIR /var/www/html
 
-
-RUN  apt-get update  &&  apt-get install -y \
+RUN apt-get update && apt-get install -y \
     software-properties-common \
-    npm=6.14.8 \
+    npm \
     curl
 RUN npm cache clean -f
 RUN npm install -g n

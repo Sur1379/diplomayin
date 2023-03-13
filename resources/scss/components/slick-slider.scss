@@ -1,0 +1,82 @@
+.facultet-image {
+    object-fit: contain;
+    position: relative;
+    @include images;
+
+    img {
+        @include images;
+        object-fit: cover;
+    }
+
+    p {
+        @include paragraph;
+        @include text;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        bottom: -1px;
+        margin-bottom: 0;
+    }
+
+    a {
+        display: block;
+        height: 100%;
+    }
+}
+
+.single-item {
+    .slick-track {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: stretch;
+
+        .slick-slide {
+            height: auto;
+        }
+    }
+}
+
+.slick-dots {
+    li.slick-active {
+        button {
+            &:before {
+                background: $black;
+                opacity: .75;
+                color: $black;
+            }
+        }
+    }
+}
+
+.slick-dots {
+    li {
+        button {
+            &:before {
+                background-color: $white;
+                border: 1px solid;
+                content: " ";
+                border-radius: 8px;
+            }
+        }
+
+        button {
+            &:hover {
+                &:before {
+                    content: "•";
+                      color: $black;
+                }
+            }
+        }
+    }
+}
+
+.slick-dots {
+    background: #fff;
+    bottom: 25px;
+}
+
+.slick-dotted.slick-slider {
+    padding-bottom: 70px;
+    margin: 0;
+}
+

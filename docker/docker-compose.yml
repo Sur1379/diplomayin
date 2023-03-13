@@ -5,6 +5,7 @@ services:
             context: ./server
             dockerfile: Dockerfile
         image: server
+        platform: linux/x86_64
         ports:
             - "8080:80"
         volumes:
@@ -32,6 +33,7 @@ services:
             - ./data:/data
     npm:
         command: tail -F anything
+        platform: linux/x86_64
         build:
             context: ./npm
             dockerfile: Dockerfile

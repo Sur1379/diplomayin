@@ -1,6 +1,5 @@
 .menu_content {
     box-shadow: 0 0 12px 4px rgb(220 220 220);
-
     h3 {
         &:after {
             content: '';
@@ -10,4 +9,14 @@
             margin-top: 10px;
         }
     }
+    .gallery {
+        padding: 70px 0;
+        gap: 10px;
+        img {
+            width: 100%;
+            max-width: 465px;
+            box-shadow: 0 0 12px 4px rgb(220 220 220);
+        }
+    }
 }
+

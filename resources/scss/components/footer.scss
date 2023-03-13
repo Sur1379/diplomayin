@@ -1,0 +1,30 @@
+.address-section {
+    p {
+        &:after {
+            @include icons;
+        }
+
+        &:first-of-type {
+            &:after {
+                @include icons;
+                content: '\f3c5';
+            }
+        }
+
+        &:nth-child(2) {
+            &:after {
+                content: '\f095';
+            }
+        }
+
+        &:nth-child(3) {
+            &:after {
+                content: '\f0e0';
+            }
+        }
+    }
+}
+
+
+
+

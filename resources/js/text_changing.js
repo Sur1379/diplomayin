@@ -1,4 +1,4 @@
-$(document).ready(function (){
+$(document).ready(function () {
     (function () {
         let words = [
             '34000 <br> և ավելի շրջանավարտ',
@@ -8,14 +8,16 @@ $(document).ready(function (){
         ]
 
         let point = 0;
-        function changeText(){
+
+        function changeText() {
             $('#words').html(words[point]);
-            if(point < ( words.length - 1 ) ){
+            if (point < (words.length - 1)) {
                 point++;
-            }else{
+            } else {
                 point = 0;
             }
         }
 
         setInterval(changeText, 700)
-    }()) })
+    }())
+})

@@ -1,0 +1,42 @@
+@mixin paragraph {
+    font-size: 21px;
+    color: $grey;
+}
+
+@mixin images {
+    max-width: 1000px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@mixin hamburger_parameters {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+@mixin hamburger {
+    transform-origin: left center;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+}
+
+@mixin text {
+    display: block;
+    width: 100%;
+    position: absolute;
+}
+
+@mixin icons {
+    font-weight: 900;
+    margin: 7px;
+    font-family: "Font Awesome 5 Free", sans-serif;
+}
+
+@mixin link {
+    text-decoration: none;
+    color: $black;
+}
