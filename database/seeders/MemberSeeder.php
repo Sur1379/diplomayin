@@ -1,6 +1,7 @@
 <?php
 
 namespace Database\Seeders;
+
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -53,7 +54,7 @@ class MemberSeeder extends Seeder
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s")
             ],
-        [
+            [
                 'first_name' => 'Համեստ',
                 'last_name' => 'Մարգարյան',
                 'image_url' => 'http://localhost:8080/images/jenny.jpg',
@@ -105,7 +106,7 @@ class MemberSeeder extends Seeder
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s")
             ],
-                [
+            [
                 'first_name' => 'Լիլիթ',
                 'last_name' => 'Դավթյան',
                 'image_url' => 'http://localhost:8080/images/elena.jpg',
@@ -118,7 +119,6 @@ class MemberSeeder extends Seeder
                 'created_at' => date("Y-m-d H:i:s"),
                 'updated_at' => date("Y-m-d H:i:s")
             ],
-
         ]);
     }
 }
